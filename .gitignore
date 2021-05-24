@@ -4,6 +4,6 @@ megaphone
 *.png
 compile_commands.json
 .ccls*
-.out
+*.out
 
 pony
