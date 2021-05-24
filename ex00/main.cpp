@@ -6,19 +6,19 @@
 /*   By: tayamamo <tayamamo@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/24 04:05:30 by tayamamo          #+#    #+#             */
-/*   Updated: 2021/05/24 17:19:43 by tayamamo         ###   ########.fr       */
+/*   Updated: 2021/05/24 17:37:09 by tayamamo         ###   ########.fr       */
 /*   Copyright 2021                                                           */
 /* ************************************************************************** */
 
 #include "Pony.hpp"
 
 void putVarAddress(void) {
-	int varOnTheStack = 42;
-	int *varOnTheHeap = new int(42);
+    int varOnTheStack = 42;
+    int *varOnTheHeap = new int(42);
 
-	std::cout << "Local Var    : " << (&varOnTheStack) << std::endl;
-	std::cout << "Alloc Var    : " << (varOnTheHeap) << std::endl;
-	delete varOnTheHeap;
+    std::cout << "Local Var    : " << (&varOnTheStack) << std::endl;
+    std::cout << "Alloc Var    : " << (varOnTheHeap) << std::endl;
+    delete varOnTheHeap;
 }
 
 void    ponyOnTheStack(void) {
