@@ -20,3 +20,7 @@
     - ポインタとは，他の変数のメモリアドレスを保持する変数のことです．ポインタが指すメモリ位置にアクセスするためには，`*` 演算子を用いてポインタを参照解除する必要があります．
     - 参照変数とは，エイリアス，つまりすでに存在する変数の別の名前のことです．参照は，ポインタと同様に，オブジェクトのアドレスを格納することでも実装されます．参照は，自動インダイレクト機能を持つ定数ポインタ（定数値へのポインタと混同してはいけません！）と考えることができます．つまり，コンパイラが `*` 演算子を適用してくれるということです． 
 - [Pointers vs References in C++](https://www.geeksforgeeks.org/pointers-vs-references-cpp/)
+
+### ex05
+- アドレスを文字列に変換する
+- [Convert “this” pointer to string](https://stackoverflow.com/questions/7850125/convert-this-pointer-to-string)
