@@ -24,3 +24,12 @@
 ### ex05
 - アドレスを文字列に変換する
 - [Convert “this” pointer to string](https://stackoverflow.com/questions/7850125/convert-this-pointer-to-string)
+
+### ex06
+- コンストラクタにおける参照型の初期化方法
+- [Initialising reference in constructor C++](https://stackoverflow.com/questions/6576109/initialising-reference-in-constructor-c)
+- 参照とポインタの違い
+  - 初期化時のみ参照先を指定でき，その後変更することができない．
+  - なので，参照には明示的に const を付ける．
+  - 参照自身のアドレスを獲得できない．
+  - [第16回目 参照、それはポインタと同じ？違う？](https://theolizer.com/cpp-school1/cpp-school1-16/)
