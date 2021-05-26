@@ -38,6 +38,8 @@
 
 ### ex07
 - [[C++] ifstreamでファイルを読む際のファイル存在チェック](https://qiita.com/yohm/items/91c5180d9c6d427b22d0)
+- ifstream: ファイルに対する入力ストリーム
+- ofstream: ファイルに対する出力ストリーム
 - [std::basic_string::append](https://cpprefjp.github.io/reference/string/basic_string/append.html)
 - [std::basic_string::find](https://cpprefjp.github.io/reference/string/basic_string/find.html)
 - [std::basic_string::replace](https://cpprefjp.github.io/reference/string/basic_string/replace.htmlf)
