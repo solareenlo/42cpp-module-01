@@ -9,6 +9,8 @@
 
 ### ex02
 - オブジェクトのスタックとヒープの練習
+- [静的キャスト](https://docs.oracle.com/cd/E19957-01/805-7887/6j7dsdhg4/index.html)
+- [動的キャスト](https://docs.oracle.com/cd/E19957-01/805-7887/6j7dsdhg5/index.html)
 
 ### ex03
 - コンストラクタのオーバーロード（多重定義）
@@ -33,3 +35,9 @@
   - なので，参照には明示的に const を付ける．
   - 参照自身のアドレスを獲得できない．
   - [第16回目 参照、それはポインタと同じ？違う？](https://theolizer.com/cpp-school1/cpp-school1-16/)
+
+### ex07
+- [[C++] ifstreamでファイルを読む際のファイル存在チェック](https://qiita.com/yohm/items/91c5180d9c6d427b22d0)
+- [std::basic_string::append](https://cpprefjp.github.io/reference/string/basic_string/append.html)
+- [std::basic_string::find](https://cpprefjp.github.io/reference/string/basic_string/find.html)
+- [std::basic_string::replace](https://cpprefjp.github.io/reference/string/basic_string/replace.htmlf)
