@@ -6,7 +6,7 @@
 /*   By: tayamamo <tayamamo@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/26 15:25:50 by tayamamo          #+#    #+#             */
-/*   Updated: 2021/05/26 16:06:11 by tayamamo         ###   ########.fr       */
+/*   Updated: 2021/06/09 22:35:13 by tayamamo         ###   ########.fr       */
 /*   Copyright 2021                                                           */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ HumanB::HumanB(std::string name) {
     this->pweapon_ = NULL;
 }
 
-void    HumanB::setWepon(const Weapon& weapon) {
+void    HumanB::setWeapon(const Weapon& weapon) {
     this->pweapon_ = &weapon;
 }
 

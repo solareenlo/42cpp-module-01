@@ -6,7 +6,7 @@
 /*   By: tayamamo <tayamamo@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/26 15:21:39 by tayamamo          #+#    #+#             */
-/*   Updated: 2021/05/26 16:03:14 by tayamamo         ###   ########.fr       */
+/*   Updated: 2021/06/09 22:35:11 by tayamamo         ###   ########.fr       */
 /*   Copyright 2021                                                           */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@
 class   HumanB {
  public:
     explicit HumanB(std::string);
-    void        setWepon(const Weapon& weapon);
+    void        setWeapon(const Weapon& weapon);
     void        attack(void);
 
  private:
