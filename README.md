@@ -37,6 +37,7 @@
   - なので，参照には明示的に const を付ける．
   - 参照自身のアドレスを獲得できない．
   - [第16回目 参照、それはポインタと同じ？違う？](https://theolizer.com/cpp-school1/cpp-school1-16/)
+- なので，オブジェクト内で NULL の状態があり得るオブジェクトはポインタで確保しておく
 
 ### ex07
 - [[C++] ifstreamでファイルを読む際のファイル存在チェック](https://qiita.com/yohm/items/91c5180d9c6d427b22d0)
