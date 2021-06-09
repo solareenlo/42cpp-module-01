@@ -6,7 +6,7 @@
 /*   By: tayamamo <tayamamo@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/25 17:18:31 by tayamamo          #+#    #+#             */
-/*   Updated: 2021/05/26 01:03:59 by tayamamo         ###   ########.fr       */
+/*   Updated: 2021/06/10 05:58:30 by tayamamo         ###   ########.fr       */
 /*   Copyright 2021                                                           */
 /* ************************************************************************** */
 
@@ -25,10 +25,11 @@ Zombie* ZombieEvent::randomChump(void) {
     std::string num = "0123456789";
     std::string alpha = "abcdefghijklmnopqrstuvwxyz";
     std::string name = "", type = "";
-    srand((unsigned) time(NULL));
     for (int i = 0; i < 3; i++) {
         name += alpha[static_cast<int>(rand()) % 26];
         type += num[static_cast<int>(rand()) % 10];
     }
-    return (new Zombie(name, type));
+    Zombie* zom = new Zombie(name, type);
+    zom->announce();
+    return (zom);
 }
