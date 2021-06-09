@@ -6,7 +6,7 @@
 /*   By: tayamamo <tayamamo@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/25 17:08:23 by tayamamo          #+#    #+#             */
-/*   Updated: 2021/05/26 03:19:53 by tayamamo         ###   ########.fr       */
+/*   Updated: 2021/06/10 06:00:56 by tayamamo         ###   ########.fr       */
 /*   Copyright 2021                                                           */
 /* ************************************************************************** */
 
@@ -15,13 +15,11 @@
 Zombie::Zombie(void) {
     this->name_ = "";
     this->type_ = "";
-    this->announce();
 }
 
 Zombie::Zombie(std::string name, std::string type) {
     this->name_ = name;
     this->type_ = type;
-    this->announce();
 }
 
 void    Zombie::announce(void) {

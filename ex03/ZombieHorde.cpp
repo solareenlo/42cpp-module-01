@@ -6,7 +6,7 @@
 /*   By: tayamamo <tayamamo@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/26 01:35:05 by tayamamo          #+#    #+#             */
-/*   Updated: 2021/05/26 03:25:24 by tayamamo         ###   ########.fr       */
+/*   Updated: 2021/06/10 05:59:48 by tayamamo         ###   ########.fr       */
 /*   Copyright 2021                                                           */
 /* ************************************************************************** */
 
@@ -17,7 +17,6 @@ ZombieHorde::ZombieHorde(int N) {
         return;
     this->N_ = N;
     this->zombie_horde_ = new Zombie[N];
-    srand((unsigned int) time(NULL));
     for (int i = 0; i < N; i++) {
         this->zombie_horde_[i].setName(ZOMBIE_NAME[rand() % ZOMBIE_NAME_NUM]);
         this->zombie_horde_[i].setType(ZOMBIE_TYPE[rand() % ZOMBIE_TYPE_NUM]);
