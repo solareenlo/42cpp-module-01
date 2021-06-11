@@ -6,7 +6,7 @@
 /*   By: tayamamo <tayamamo@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/25 17:12:19 by tayamamo          #+#    #+#             */
-/*   Updated: 2021/05/26 01:03:49 by tayamamo         ###   ########.fr       */
+/*   Updated: 2021/06/11 23:24:56 by tayamamo         ###   ########.fr       */
 /*   Copyright 2021                                                           */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ class   ZombieEvent {
  public:
     void        setZombieType(std::string type);
     Zombie*     newZombie(std::string name);
-    Zombie*     randomChump(void);
+    void        randomChump();
 
  private:
     std::string type_;
