@@ -6,7 +6,7 @@
 /*   By: tayamamo <tayamamo@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/25 17:08:23 by tayamamo          #+#    #+#             */
-/*   Updated: 2021/06/10 06:00:56 by tayamamo         ###   ########.fr       */
+/*   Updated: 2021/06/11 23:10:49 by tayamamo         ###   ########.fr       */
 /*   Copyright 2021                                                           */
 /* ************************************************************************** */
 
@@ -22,11 +22,11 @@ Zombie::Zombie(std::string name, std::string type) {
     this->type_ = type;
 }
 
-void    Zombie::announce(void) {
+void    Zombie::announce() {
     std::cout << "Braiiiiiiinnnssss..." << std::endl;
 }
 
-void    Zombie::putNameType(void) {
+void    Zombie::putNameType() {
     std::cout << this->name_ << "'s type is " << this->type_ << std::endl;
 }
 
