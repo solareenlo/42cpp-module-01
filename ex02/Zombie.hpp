@@ -20,14 +20,13 @@ class   Zombie {
  public:
     Zombie(std::string name, std::string type);
 
-    void        putNameType() const;
     void        announce() const;
-    std::string getName() const;
-    std::string getType() const;
 
  private:
     std::string name_;
     std::string type_;
+    std::string getName() const;
+    std::string getType() const;
 };
 
 #endif  // EX02_ZOMBIE_HPP_

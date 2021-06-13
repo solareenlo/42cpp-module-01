@@ -11,7 +11,6 @@
 /* ************************************************************************** */
 
 #include "ZombieEvent.hpp"
-#include <stdlib.h>
 
 void    ZombieEvent::setZombieType(std::string type) {
     this->type_ = type;

@@ -21,9 +21,5 @@ void    Zombie::announce() const {
     std::cout << ")> Braiiiiiiinnnssss..." << std::endl;
 }
 
-void    Zombie::putNameType() const {
-    std::cout << this->name_ << "'s type is " << this->type_ << std::endl;
-}
-
 std::string Zombie::getName() const { return (this->name_); }
 std::string Zombie::getType() const { return (this->type_); }
