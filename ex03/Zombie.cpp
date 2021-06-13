@@ -12,28 +12,15 @@
 
 #include "Zombie.hpp"
 
-Zombie::Zombie(void) {
-    this->name_ = "";
-    this->type_ = "";
+Zombie::Zombie() : name_(""), type_("") {}
+Zombie::Zombie(std::string name, std::string type) : name_(name), type_(type) {}
+
+void    Zombie::announce() const {
+    std::cout << "<" << this->getName() << " (" << this->getType();
+    std::cout << ")> Braiiiiiiinnnssss..." << std::endl;
 }
 
-Zombie::Zombie(std::string name, std::string type) {
-    this->name_ = name;
-    this->type_ = type;
-}
-
-void    Zombie::announce() {
-    std::cout << "Braiiiiiiinnnssss..." << std::endl;
-}
-
-void    Zombie::putNameType() {
-    std::cout << this->name_ << "'s type is " << this->type_ << std::endl;
-}
-
-void    Zombie::setName(std::string name) {
-    this->name_ = name;
-}
-
-void    Zombie::setType(std::string type) {
-    this->type_ = type;
-}
+std::string Zombie::getName() const { return (this->name_); }
+std::string Zombie::getType() const { return (this->type_); }
+void        Zombie::setName(std::string name) { this->name_ = name; }
+void        Zombie::setType(std::string type) { this->type_ = type; }

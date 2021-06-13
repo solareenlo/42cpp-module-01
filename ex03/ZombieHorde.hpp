@@ -44,9 +44,9 @@ const char  ZOMBIE_TYPE[ZOMBIE_TYPE_NUM][2] = {
 class   ZombieHorde {
  public:
     explicit    ZombieHorde(int N);
-    ~ZombieHorde(void);
+    ~ZombieHorde();
 
-    void        announce(void);
+    void        announce() const;
 
  private:
     int         N_;

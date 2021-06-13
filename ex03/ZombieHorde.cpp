@@ -23,13 +23,13 @@ ZombieHorde::ZombieHorde(int N) {
     }
 }
 
-ZombieHorde::~ZombieHorde(void) {
+ZombieHorde::~ZombieHorde() {
     if (this->N_ < 0)
         return;
     delete[] this->zombie_horde_;
 }
 
-void    ZombieHorde::announce(void) {
+void    ZombieHorde::announce() const {
     for (int i = 0; i < this->N_; i++)
         this->zombie_horde_[i].announce();
 }
